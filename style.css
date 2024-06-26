@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+nav{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    
+}
+nav a{
+    text-decoration: none;
+    color: rgb(239, 234, 234);
+    font-size: 20px;
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40rem;
+    padding: 2rem;
+    background-color: rgb(51, 50, 50);
+    color: white;
+}
+.text{
+    display: flex;
+    align-items: baseline;
+    gap: 0.2rem;
+}
+.text h4{
+    color: rgb(135, 135, 148);
+}
+nav a:hover{
+    color: rgb(214, 57, 214);
+}
+.home-img img{
+    width: 25rem;
+    height: 30rem;
+    /* position: absolute; */
+}
+.home{
+    position: relative;
+    bottom: 1.2rem;
+    display: flex;
+    /* margin: 0rem 5rem; */
+    gap: 12rem;
+    /* align-items: ; */
+    background-color: black;
+    color: white;
+    justify-content: end;
+}
+.home-img{
+    margin-right: 10rem;
+}
+.home-text{
+    margin-top: 12rem;
+    margin-left: 5rem;
+}
+.home-img h3{
+    margin-top: 100rem;
+    margin-bottom: 10rem;
+}
+.m{
+    /* margin-top: 0.5rem; */
+    margin-bottom: 1rem;
+}
+.home-text p{
+    font-size: smaller;
+}
+.home-text button{
+    padding: 1rem;
+    border-radius: 20px;
+    margin-left: rem;
+    background-color: grey;
+    color: aliceblue;
+    border: none;
+}
+.mm{
+    display: flex;
+    justify-content: center;
+}
+.mmm img {
+    height: 10rem;
+    border-radius: 30px;
+    /* width: 12rem; */
+}
+.mmm{
+    display: flex;
+    padding: 5rem;
+    justify-content: center;
+    gap: 5rem;
+}
+.menu1text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.menu{
+    background-color: rgb(25, 23, 23);
+    color: white;
+    padding: 2rem;
+}
+/* .menu1text h3{
+    margin-left: 2rem;
+} */
+/* .menu img{
+    margin: 2rem;
+} */
+.menu2text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.menu3text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.menu1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0rem 2rem;
+    margin-left: 4rem;
+}
+.menu3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu p {
+    font-size: smaller;
+}
+.picss img{
+    height: 7rem;
+}
+.contact-us{
+    background-color: rgb(49, 48, 48);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    
+}
+.picss {
+    display: flex;
+    align-items: center;
+    gap: 700px;
+}
+.icons {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+}
+
+i {
+    color: white;
+}
